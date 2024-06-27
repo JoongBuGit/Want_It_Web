@@ -1,0 +1,29 @@
+/* mypage */
+.profileInfo {
+  width: 70%;
+  padding: 5%;
+  margin-top: -100px;
+}
+
+.profileInfo form {
+  display: grid;
+  gap: 10px;
+}
+
+.profileInfo form label {
+  font-weight: bold;
+}
+
+.profileInfo form input[type='text'],
+.profileInfo form input[type='password'],
+.profileInfo form input[type='email'] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.editinfo {
+  margin-top: 65px;
+}

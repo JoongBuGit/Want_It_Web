@@ -1,0 +1,114 @@
+/* 구매 내역 */
+.purchase {
+  margin-top: 50px;
+  top: 2%;
+  overflow: auto;
+  max-height: 80dvh;
+}
+
+.tab-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+.tab-box {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  width: 300px;
+}
+
+.tab-button:hover {
+  background-color: #ddd;
+}
+
+.tabLine {
+  border-left: 2px solid #ccc; /* 세로 줄의 스타일과 색상 설정 */
+  height: 45px; /* 세로 줄의 높이 설정 */
+  margin: 0 15px; /* 좌우 여백 설정 */
+  display: inline-block;
+}
+
+.purchaseList {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+}
+
+.purchaseInfo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.productExp {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.purchaseName {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.header h3 {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header1 {
+  margin-left: -50px;
+}
+
+.header3 {
+  margin-left: 25px;
+}
+
+.purchaseDate {
+  margin-left: auto;
+  font-size: 14px;
+  color: #666;
+  width: 25%;
+  text-align: center;
+}
+
+.shipping {
+  width: 25%;
+  text-align: center;
+  color: gray;
+}
+
+.purchaseInfo img {
+  margin-right: 20px;
+  height: 100px;
+}

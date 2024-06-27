@@ -1,0 +1,39 @@
+.profileInfo {
+  width: 70%;
+  padding: 5%;
+  margin-top: -25px;
+}
+
+.profileInfo form {
+  display: grid;
+  gap: 10px;
+}
+
+.profileInfo form label {
+  font-weight: bold;
+}
+
+.profileInfo form input[type='text'],
+.profileInfo form input[type='password'],
+.profileInfo form input[type='email'] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.profileInfo form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #afc672;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profileInfo form button:hover {
+  background-color: #a1bb5b;
+}
